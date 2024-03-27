@@ -13,7 +13,6 @@ import shelve
 import shelve
 
 with shelve.open("Links") as f:
-    link = {}
     while True:
         answer = input("Для того щоб ввести посилання введіть 1. Для отримання посилання введіть 2: \n")
         if answer == "0":
